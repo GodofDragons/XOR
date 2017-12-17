@@ -1,6 +1,6 @@
 #include <fstream.h>
 #include <conio.h>
-
+#define KEY 3
 
 struct node{
 	char data;
@@ -78,7 +78,7 @@ void list::store(char arr[]){
        file.close();
 }
 XOR::XOR(){
-	key = '3';
+	key = KEY;
 }
 char XOR::encryptdecrypt(char p)
 {
