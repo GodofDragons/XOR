@@ -6,3 +6,4 @@ Used linked lists to store and read from files.
 Trying to add another layer of encryption.
 Possible ciphers: 1. Affine cipher
                   2. Caesar cipher
+                  3. Vigenere cipher
